@@ -1,0 +1,582 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ORNMNT Jewelry</title>
+  <meta name="description" content="Jewelry. Made for you. 316L surgical-grade jewelry made to wear every day.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============================== HEADER ============================== -->
+<header class="site-header" data-header>
+  <div class="header">
+    <nav class="header__nav" aria-label="Main">
+      <button class="header__icon header__burger" type="button" aria-label="Open menu" data-drawer-open>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+      <ul class="header__menu">
+        <li><a href="#" class="header__menu-item header__menu-item--active"><span>Home</span></a></li>
+        <li><a href="#signatures" class="header__menu-item"><span>Catalog</span></a></li>
+        <li><a href="#about" class="header__menu-item"><span>About Us</span></a></li>
+        <li><a href="#contact" class="header__menu-item"><span>Contact</span></a></li>
+      </ul>
+    </nav>
+    <a href="#" class="header__logo" aria-label="ORNMNT home">
+      <img src="https://ornmnt-jewelry.myshopify.com/cdn/shop/files/Frame_15_1.png?v=1779196936&width=600" alt="ORNMNT Jewelry" width="80" height="60">
+    </a>
+    <div class="header__icons">
+      <button class="header__icon" type="button" aria-label="Search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+      </button>
+      <a href="#" class="header__icon header__icon--account" aria-label="Log in">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg>
+      </a>
+      <a href="#" class="header__icon" aria-label="Cart">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 8h14l-1 13H6L5 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+      </a>
+    </div>
+  </div>
+</header>
+
+<div class="menu-drawer" data-drawer aria-hidden="true">
+  <button class="header__icon menu-drawer__close" type="button" aria-label="Close menu" data-drawer-close>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 6l12 12M18 6 6 18"/></svg>
+  </button>
+  <a href="#">Home</a>
+  <a href="#signatures">Catalog</a>
+  <a href="#about">About Us</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<main>
+
+<!-- ============================== 1. HERO ============================== -->
+<section class="sma-banner" style="
+  --banner-bg: url('https://ornmnt-jewelry.myshopify.com/cdn/shop/files/947798535663747d5a4378834c9e414bf33da955_1.jpg?v=1779094005&width=2400');
+  --banner-bg-m: url('https://ornmnt-jewelry.myshopify.com/cdn/shop/files/947798535663747d5a4378834c9e414bf33da955_1.png?v=1779200394&width=1200');">
+  <div class="sma-banner__container">
+    <div class="sma-banner__row">
+      <div class="sma-banner__col-left">
+        <div>
+          <h2 class="sma-primary-heading">Jewelry.</h2>
+          <h2 class="sma-primary-heading sma-banner__main-heading">Made for You.</h2>
+        </div>
+        <div class="sma-banner__content-box">
+          <p class="sma-label-text sma-banner__content-label">Welcome to ORNMNT</p>
+          <p class="sma-body-text sma-banner__content-body">India’s first 316L surgical-grade jewelry — made to wear every day, made to feel like it was made for you.</p>
+          <a href="#signatures" class="sma-button-second">Discover Yours</a>
+        </div>
+      </div>
+
+      <div class="sma-banner__col-right">
+        <a href="#signatures" class="sma-banner__info-box">
+          <img class="sma-banner__info-image" src="https://ornmnt-jewelry.myshopify.com/cdn/shop/files/677685e54ebd6ab3d745d871087980499b5e8ff9.jpg?v=1779094199&width=400" alt="" width="148" height="128">
+          <div>
+            <p class="sma-label-text sma-banner__info-label">Shop the look</p>
+            <p class="sma-chotta-text sma-banner__info-body">Curated pairings designed to move together, effortlessly.</p>
+          </div>
+        </a>
+
+        <a href="#signatures" class="sma-banner__carousel-box" aria-label="The latest arrivals">
+          <div class="sma-banner__carousel" data-banner-carousel>
+            <div class="sma-banner__carousel-track" data-track>
+              <div class="sma-banner__carousel-slide">
+                <img src="https://ornmnt-jewelry.myshopify.com/cdn/shop/files/Rectangle_1_1.jpg?v=1779094341&width=400" alt="">
+                <img src="https://ornmnt-jewelry.myshopify.com/cdn/shop/files/Rectangle_2_1.jpg?v=1779094341&width=400" alt="">
+              </div>
+              <div class="sma-banner__carousel-slide">
+                <img src="https://ornmnt-jewelry.myshopify.com/cdn/shop/files/Rectangle_3_1.jpg?v=1779094341&width=400" alt="">
+                <img src="https://ornmnt-jewelry.myshopify.com/cdn/shop/files/Rectangle_4_1.jpg?v=1779094341&width=400" alt="">
+              </div>
+              <div class="sma-banner__carousel-slide">
+                <img src="https://ornmnt-jewelry.myshopify.com/cdn/shop/files/Rectangle_5_1.jpg?v=1779094343&width=400" alt="">
+                <img src="https://ornmnt-jewelry.myshopify.com/cdn/shop/files/Rectangle_6_1.jpg?v=1779094341&width=400" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="sma-banner__carousel-footer">
+            <p class="sma-label-text">The latest arrivals</p>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== 2. FEATURED PRODUCTS (hover effect) ============================== -->
+<section class="sma-featured-products" data-featured>
+  <video class="sma-featured-section-video sma-featured-section-video--1" autoplay muted loop playsinline preload="metadata"
+    src="https://ornmnt-jewelry.myshopify.com/cdn/shop/videos/c/vp/66e936d5fbbb4f70a7125eed7340722a/66e936d5fbbb4f70a7125eed7340722a.SD-480p-1.5Mbps-84373679.mp4?v=0"></video>
+  <video class="sma-featured-section-video sma-featured-section-video--2" autoplay muted loop playsinline preload="metadata"
+    src="https://ornmnt-jewelry.myshopify.com/cdn/shop/videos/c/vp/2fc4649683b242dc9b1ad2ee416bab19/2fc4649683b242dc9b1ad2ee416bab19.SD-480p-1.5Mbps-84373683.mp4?v=0"></video>
+  <video class="sma-featured-section-video sma-featured-section-video--3" autoplay muted loop playsinline preload="metadata"
+    src="https://ornmnt-jewelry.myshopify.com/cdn/shop/videos/c/vp/ec4c5a065e1e4cecab34f0b60d9d41b8/ec4c5a065e1e4cecab34f0b60d9d41b8.SD-480p-1.5Mbps-84373680.mp4?v=0"></video>
+  <video class="sma-featured-section-video sma-featured-section-video--4" autoplay muted loop playsinline preload="metadata"
+    src="https://ornmnt-jewelry.myshopify.com/cdn/shop/videos/c/vp/a053bf8e25cc4f109e3d11a6ffb5b337/a053bf8e25cc4f109e3d11a6ffb5b337.SD-480p-1.5Mbps-84373681.mp4?v=0"></video>
+
+  <div class="sma-featured-inner">
+    <div class="sma-featured-heading-box">
+      <span class="sma-label-text">Featured collection</span>
+      <h2 class="sma-primary-heading">Pieces that stay.</h2>
+    </div>
+
+    <div class="sma-featured-grid">
+      <a href="#" class="sma-featured-product-box sma-featured-product-box--1">
+        <video class="sma-featured-product-video" autoplay muted loop playsinline preload="metadata"
+          src="https://ornmnt-jewelry.myshopify.com/cdn/shop/videos/c/vp/66e936d5fbbb4f70a7125eed7340722a/66e936d5fbbb4f70a7125eed7340722a.SD-480p-1.5Mbps-84373679.mp4?v=0"></video>
+        <div class="sma-featured-product-header">
+          <div class="sma-featured-product-info">
+            <span class="sma-featured-product-name">Thread Necklace</span>
+            <span class="sma-featured-product-price">₹2,800</span>
+          </div>
+          <span class="sma-chotta-text sma-featured-product-number">01</span>
+        </div>
+        <div class="sma-featured-product-image">
+          <img src="https://ornmnt-jewelry.myshopify.com/cdn/shop/files/freepik_a-delicate-thin-gold-chai_2851719407_1_1.png?v=1779103886&width=400" alt="Thread Necklace" width="400" height="400" loading="lazy">
+        </div>
+      </a>
+
+      <a href="#" class="sma-featured-product-box sma-featured-product-box--2">
+        <video class="sma-featured-product-video" autoplay muted loop playsinline preload="metadata"
+          src="https://ornmnt-jewelry.myshopify.com/cdn/shop/videos/c/vp/2fc4649683b242dc9b1ad2ee416bab19/2fc4649683b242dc9b1ad2ee416bab19.SD-480p-1.5Mbps-84373683.mp4?v=0"></video>
+        <div class="sma-featured-product-header">
+          <div class="sma-featured-product-info">
+            <span class="sma-featured-product-name">Texture Band Ring</span>
+            <span class="sma-featured-product-price">₹2,800</span>
+          </div>
+          <span class="sma-chotta-text sma-featured-product-number">02</span>
+        </div>
+        <div class="sma-featured-product-image">
+          <img src="https://ornmnt-jewelry.myshopify.com/cdn/shop/files/freepik_a-wide-minimal-gold-band-_2851721232_1_1.png?v=1779103886&width=400" alt="Texture Band Ring" width="400" height="400" loading="lazy">
+        </div>
+      </a>
+
+      <a href="#" class="sma-featured-product-box sma-featured-product-box--3">
+        <video class="sma-featured-product-video" autoplay muted loop playsinline preload="metadata"
+          src="https://ornmnt-jewelry.myshopify.com/cdn/shop/videos/c/vp/ec4c5a065e1e4cecab34f0b60d9d41b8/ec4c5a065e1e4cecab34f0b60d9d41b8.SD-480p-1.5Mbps-84373680.mp4?v=0"></video>
+        <div class="sma-featured-product-header">
+          <div class="sma-featured-product-info">
+            <span class="sma-featured-product-name">Gather Earrings</span>
+            <span class="sma-featured-product-price">₹2,800</span>
+          </div>
+          <span class="sma-chotta-text sma-featured-product-number">03</span>
+        </div>
+        <div class="sma-featured-product-image">
+          <img src="https://ornmnt-jewelry.myshopify.com/cdn/shop/files/freepik_a-single-small-sculptural_2851722742_1_1.png?v=1779103886&width=400" alt="Gather Earrings" width="400" height="400" loading="lazy">
+        </div>
+      </a>
+
+      <a href="#" class="sma-featured-product-box sma-featured-product-box--4">
+        <video class="sma-featured-product-video" autoplay muted loop playsinline preload="metadata"
+          src="https://ornmnt-jewelry.myshopify.com/cdn/shop/videos/c/vp/a053bf8e25cc4f109e3d11a6ffb5b337/a053bf8e25cc4f109e3d11a6ffb5b337.SD-480p-1.5Mbps-84373681.mp4?v=0"></video>
+        <div class="sma-featured-product-header">
+          <div class="sma-featured-product-info">
+            <span class="sma-featured-product-name">Slim Cuff</span>
+            <span class="sma-featured-product-price">₹2,800</span>
+          </div>
+          <span class="sma-chotta-text sma-featured-product-number">04</span>
+        </div>
+        <div class="sma-featured-product-image">
+          <img src="https://ornmnt-jewelry.myshopify.com/cdn/shop/files/freepik_a-flat-minimal-gold-cuff-_2851723434_1_1.png?v=1779103886&width=400" alt="Slim Cuff" width="400" height="400" loading="lazy">
+        </div>
+      </a>
+    </div>
+
+    <div class="sma-featured-content-box">
+      <div class="sma-body-text">
+        <p><strong>The Still Collection</strong> is four pieces that were made to be worn through everything. Not for occasions. For the days you want to feel like yourself.</p>
+      </div>
+      <a class="sma-button-second" href="#signatures">Shop the collection</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== 3. THE SIGNATURES ============================== -->
+<section class="collection" id="signatures">
+  <div class="collection__title">
+    <div class="collection__title-left">
+      <span class="sma-label-text">The Signatures</span>
+      <h2 class="sma-primary-heading scroll-trigger animate--slide-in">Featured products</h2>
+      <p class="sma-body-text scroll-trigger animate--slide-in">Four signatures. Each one designed to be worn on its own or with everything else. These are the ones people come back for.</p>
+    </div>
+    <div class="collection__title-right">
+      <span class="sma-label-text collection__tab-label">Filter by:</span>
+      <div class="collection-tabs" role="tablist" aria-label="Filter by category" data-tabs>
+        <button type="button" class="collection-tab" role="tab" aria-selected="false" data-filter="necklace" title="Necklaces">
+          <img src="https://ornmnt-jewelry.myshopify.com/cdn/shop/files/fi_8561470_f57617af-949d-4cb3-8daa-d11c7f257096.svg?v=1779168056&width=96" alt="Necklaces" width="48" height="48">
+        </button>
+        <button type="button" class="collection-tab" role="tab" aria-selected="false" data-filter="earring" title="Earrings">
+          <img src="https://ornmnt-jewelry.myshopify.com/cdn/shop/files/fi_8561461_0529cb12-ae42-44f6-bcc6-5edc53ee0bf0.svg?v=1779168095&width=96" alt="Earrings" width="48" height="48">
+        </button>
+        <button type="button" class="collection-tab" role="tab" aria-selected="false" data-filter="ring" title="Rings">
+          <img src="https://ornmnt-jewelry.myshopify.com/cdn/shop/files/fi_8561484_13499d06-ba0d-4dd6-b688-5275fd3dec1d.svg?v=1779168095&width=96" alt="Rings" width="48" height="48">
+        </button>
+        <button type="button" class="collection-tab" role="tab" aria-selected="false" data-filter="bracelet" title="Bracelets">
+          <img src="https://ornmnt-jewelry.myshopify.com/cdn/shop/files/fi_8561420_70223b56-0a58-4abd-b0ec-b1128e3ab162.svg?v=1779168095&width=96" alt="Bracelets" width="48" height="48">
+        </button>
+      </div>
+    </div>
+  </div>
+  <ul class="collection-grid" data-collection-grid></ul>
+</section>
+
+<!-- ============================== 4. CATEGORY GRID ============================== -->
+<section class="sma-category-grid" data-category-grid>
+  <a href="#signatures" class="sma-category-box is-active" style="background-image:url('https://ornmnt-jewelry.myshopify.com/cdn/shop/files/15823294bad3ec60ae69c000eeeb054592fd5427_1.jpg?v=1779114026&width=1400')">
+    <div class="sma-category-overlay-1"></div><div class="sma-category-overlay-2"></div>
+    <div class="sma-category-content">
+      <div class="sma-category-heading-row"><span class="sma-category-line"></span><h2 class="sma-primary-heading">Necklaces</h2><span class="sma-category-line"></span></div>
+      <div class="sma-category-button-wrapper"><span class="sma-button-third">Shop Now</span></div>
+    </div>
+  </a>
+  <a href="#signatures" class="sma-category-box" style="background-image:url('https://ornmnt-jewelry.myshopify.com/cdn/shop/files/6a7e77a08aad126d0f0414c2cc8545cd2116b5b0_1.jpg?v=1779114027&width=1400')">
+    <div class="sma-category-overlay-1"></div><div class="sma-category-overlay-2"></div>
+    <div class="sma-category-content">
+      <div class="sma-category-heading-row"><span class="sma-category-line"></span><h2 class="sma-primary-heading">Earrings</h2><span class="sma-category-line"></span></div>
+      <div class="sma-category-button-wrapper"><span class="sma-button-third">Shop Now</span></div>
+    </div>
+  </a>
+  <a href="#signatures" class="sma-category-box" style="background-image:url('https://ornmnt-jewelry.myshopify.com/cdn/shop/files/7b8237293a486213af99acc44f94015ced65ec0f_1.jpg?v=1779114027&width=1400')">
+    <div class="sma-category-overlay-1"></div><div class="sma-category-overlay-2"></div>
+    <div class="sma-category-content">
+      <div class="sma-category-heading-row"><span class="sma-category-line"></span><h2 class="sma-primary-heading">Rings</h2><span class="sma-category-line"></span></div>
+      <div class="sma-category-button-wrapper"><span class="sma-button-third">Shop Now</span></div>
+    </div>
+  </a>
+  <a href="#signatures" class="sma-category-box" style="background-image:url('https://ornmnt-jewelry.myshopify.com/cdn/shop/files/e0b7921f3ff63150de4d1f6ddd13a3ddf04bd700_1.jpg?v=1779114027&width=1400')">
+    <div class="sma-category-overlay-1"></div><div class="sma-category-overlay-2"></div>
+    <div class="sma-category-content">
+      <div class="sma-category-heading-row"><span class="sma-category-line"></span><h2 class="sma-primary-heading">Bracelets</h2><span class="sma-category-line"></span></div>
+      <div class="sma-category-button-wrapper"><span class="sma-button-third">Shop Now</span></div>
+    </div>
+  </a>
+</section>
+
+<!-- ============================== 5. WEAR IT FOR ============================== -->
+<section class="sma-wear-it">
+  <div class="sma-wear-header">
+    <h2 class="sma-primary-heading">ORNMNT</h2>
+    <p class="sma-body-text">One Her. Every Version</p>
+  </div>
+
+  <div class="sma-wear-row">
+    <div class="sma-wear-image-column" role="img" aria-label="The Everyday" style="background-image:url('https://ornmnt-jewelry.myshopify.com/cdn/shop/files/4d232ed1a536a3827668b62f17c954db183f2470.jpg?v=1779172454&width=1500')"></div>
+    <div class="sma-wear-content-column">
+      <p class="sma-label-text">Wear it for</p>
+      <h2 class="sma-primary-heading">The Everyday</h2>
+      <p class="sma-body-text">She is not going anywhere special. Morning light, an ordinary moment, a kitchen counter or window. She is dressed but not for anyone. The jewellery is just on her.</p>
+      <div class="sma-wear-carousel" data-wear-carousel>
+        <div class="sma-wear-carousel-track" data-products="0"></div>
+        <div class="sma-wear-dots" role="tablist"></div>
+        <div class="sma-wear-button-wrap"><a href="#signatures" class="sma-button-second">View all</a></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sma-wear-row sma-wear-row--swap">
+    <div class="sma-wear-image-column" role="img" aria-label="The First Date" style="background-image:url('https://ornmnt-jewelry.myshopify.com/cdn/shop/files/c0881c6fe8956ebb983957b96ce3ad4411ec1431_1.jpg?v=1779174654&width=1500')"></div>
+    <div class="sma-wear-content-column">
+      <p class="sma-label-text">Wear it for</p>
+      <h2 class="sma-primary-heading">The First Date</h2>
+      <p class="sma-body-text">She is ready but not showing it. Care went into choosing, not acting. Late afternoon light, between inside and outside. A doorway, staircase, street corner. One earring visible. A ring she just put on.</p>
+      <div class="sma-wear-carousel" data-wear-carousel>
+        <div class="sma-wear-carousel-track" data-products="2"></div>
+        <div class="sma-wear-dots" role="tablist"></div>
+        <div class="sma-wear-button-wrap"><a href="#signatures" class="sma-button-second">View all</a></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sma-wear-row">
+    <div class="sma-wear-image-column" role="img" aria-label="The Reunion" style="background-image:url('https://ornmnt-jewelry.myshopify.com/cdn/shop/files/d8984bcc6ba2aa2239bb0db6c74b96f6e4572da2_1.jpg?v=1779174654&width=1500')"></div>
+    <div class="sma-wear-content-column">
+      <p class="sma-label-text">Wear it for</p>
+      <h2 class="sma-primary-heading">The Reunion</h2>
+      <p class="sma-body-text">Someone from before sees who she became. She is fully herself. The setting is a platform outside a familiar building. The light is cooler, mood confident.</p>
+      <div class="sma-wear-carousel" data-wear-carousel>
+        <div class="sma-wear-carousel-track" data-products="4"></div>
+        <div class="sma-wear-dots" role="tablist"></div>
+        <div class="sma-wear-button-wrap"><a href="#signatures" class="sma-button-second">View all</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== 6. SHOP BY ============================== -->
+<section class="sma-shop-by">
+  <div class="sma-shop-by__inner">
+    <div class="sma-shop-by__intro">
+      <span class="sma-label-text">Shop By</span>
+      <h2 class="sma-primary-heading">Yours. And theirs.</h2>
+      <p class="sma-body-text">Five ways to find the right piece. For the person you know best, or the one you are still figuring out.</p>
+    </div>
+    <div class="sma-shop-by__grid">
+      <div class="sma-shop-by__row--video">
+        <a href="#signatures" class="sma-shop-by__box sma-shop-by__box--video">
+          <video class="sma-shop-by__media" autoplay loop muted playsinline
+            src="https://ornmnt-jewelry.myshopify.com/cdn/shop/videos/c/vp/eacafcf570734927a36294bdd61cc3c9/eacafcf570734927a36294bdd61cc3c9.HD-720p-2.1Mbps-84440736.mp4?v=0"></video>
+          <div class="sma-shop-by__overlay"></div>
+          <div class="sma-shop-by__content"><span class="sma-primary-heading">For Her</span></div>
+        </a>
+        <a href="#signatures" class="sma-shop-by__box sma-shop-by__box--video">
+          <video class="sma-shop-by__media" autoplay loop muted playsinline
+            src="https://ornmnt-jewelry.myshopify.com/cdn/shop/videos/c/vp/c338e40ebb0146cb86ed087cdc383c03/c338e40ebb0146cb86ed087cdc383c03.HD-1080p-7.2Mbps-84440737.mp4?v=0"></video>
+          <div class="sma-shop-by__overlay"></div>
+          <div class="sma-shop-by__content"><span class="sma-primary-heading">For Him</span></div>
+        </a>
+      </div>
+      <div class="sma-shop-by__row--images">
+        <a href="#signatures" class="sma-shop-by__box sma-shop-by__box--image">
+          <img class="sma-shop-by__media" src="https://ornmnt-jewelry.myshopify.com/cdn/shop/files/7b417419580932cfd4407a643a5c1cacf4619d46.jpg?v=1779177295&width=900" alt="" loading="lazy">
+          <div class="sma-shop-by__overlay"></div>
+          <div class="sma-shop-by__content"><span class="sma-primary-heading">Anniversary Gifts</span></div>
+        </a>
+        <a href="#signatures" class="sma-shop-by__box sma-shop-by__box--image">
+          <img class="sma-shop-by__media" src="https://ornmnt-jewelry.myshopify.com/cdn/shop/files/45fced9f156ae237ca6171c14a4eaa21314add8b.jpg?v=1779177295&width=900" alt="" loading="lazy">
+          <div class="sma-shop-by__overlay"></div>
+          <div class="sma-shop-by__content"><span class="sma-primary-heading">Wedding Gifts</span></div>
+        </a>
+        <a href="#signatures" class="sma-shop-by__box sma-shop-by__box--image">
+          <img class="sma-shop-by__media" src="https://ornmnt-jewelry.myshopify.com/cdn/shop/files/c4b3546ed22cc4332061e1927cac4464d915e144.jpg?v=1779177295&width=900" alt="" loading="lazy">
+          <div class="sma-shop-by__overlay"></div>
+          <div class="sma-shop-by__content"><span class="sma-primary-heading">Birthday Gifts</span></div>
+        </a>
+      </div>
+    </div>
+    <div class="sma-shop-by__cta"><a class="sma-button-primary" href="#signatures">Shop All</a></div>
+  </div>
+</section>
+
+<!-- ============================== 7. ABOUT ============================== -->
+<section class="sma-home-about" id="about">
+  <div class="sma-home-about__inner">
+    <div class="sma-home-about__col sma-home-about__col--left">
+      <img class="sma-home-about__image--left" src="https://ornmnt-jewelry.myshopify.com/cdn/shop/files/Rectangle_10_1.jpg?v=1779179007&width=600" alt="" width="572" height="512" loading="lazy">
+    </div>
+    <div class="sma-home-about__col sma-home-about__col--center">
+      <p class="sma-label-text">About ORNMNT</p>
+      <h2 class="sma-primary-heading">Designed to disappear into your life.</h2>
+      <div class="sma-body-text">
+        <p>ORNMNT was built on a single idea. That the pieces worth keeping are never the loudest ones in the room. We design for the woman who already knows what she wants. Who buys one thing and wears it every day for three years. Who does not need to be told what is trending.</p>
+        <p>Every piece in our edit is demi-fine by design and minimal by intention. Gold that sits against skin like it belongs there. Forms that do not explain themselves. Details that only reveal themselves up close.</p>
+        <p>We are not interested in occasions. We are interested in the everyday. The piece you reach for without thinking. The one that is still on your wrist at the end of the night.<br>That is what ORNMNT is for.</p>
+        <p><strong>Made to mean something. Made to stay.</strong></p>
+      </div>
+      <a href="#" class="sma-button-primary">Learn more</a>
+    </div>
+    <div class="sma-home-about__col sma-home-about__col--right">
+      <img class="sma-home-about__image--right" src="https://ornmnt-jewelry.myshopify.com/cdn/shop/files/Rectangle_11_1.jpg?v=1779179007&width=600" alt="" width="490" height="512" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<!-- ============================== 8. INTENTION ============================== -->
+<section class="sma-intention">
+  <div class="sma-intention__banner">
+    <img class="sma-intention__banner-image" src="https://ornmnt-jewelry.myshopify.com/cdn/shop/files/e9f623a5656965a4de46a87bd78f3eafa8bf1309_1.jpg?v=1779185115&width=2400" alt="" loading="lazy">
+    <div class="sma-intention__content">
+      <p class="sma-label-text">Made with intention</p>
+      <h2 class="sma-primary-heading">The ORNMNT Experience</h2>
+      <p class="sma-body-text">From the weight of the chain to the box it arrives in. Nothing here happened by accident.</p>
+    </div>
+  </div>
+  <div class="sma-intention__columns-row">
+    <div class="sma-intention__columns">
+      <div class="sma-intention__column">
+        <div class="sma-intention__image-wrap"><img src="https://ornmnt-jewelry.myshopify.com/cdn/shop/files/Rectangle_16_1.jpg?v=1779185313&width=800" alt="" loading="lazy"></div>
+        <h3 class="sma-primary-heading">Wrapped in quiet.</h3>
+        <p class="sma-body-text">Every ORNMNT piece comes in packaging as thoughtful as the jewellery. Neutral tones, soft textures, and a handwritten card. Unboxing feels like the first wear.</p>
+      </div>
+      <div class="sma-intention__column">
+        <div class="sma-intention__image-wrap"><img src="https://ornmnt-jewelry.myshopify.com/cdn/shop/files/Rectangle_17_1.jpg?v=1779185313&width=800" alt="" loading="lazy"></div>
+        <h3 class="sma-primary-heading">Built to outlast the moment.</h3>
+        <p class="sma-body-text">Demi-fine by category. Heirloom by intention. Every piece is made from materials that hold their finish, their weight, and their meaning. Not for a season. For years.</p>
+      </div>
+      <div class="sma-intention__column">
+        <div class="sma-intention__image-wrap"><img src="https://ornmnt-jewelry.myshopify.com/cdn/shop/files/Rectangle_18_1.jpg?v=1779185313&width=800" alt="" loading="lazy"></div>
+        <h3 class="sma-primary-heading">The detail no one sees.</h3>
+        <p class="sma-body-text">Each piece starts with deciding what to omit. The forms are simple because simplicity takes time. Every edge, join, and finish is carefully considered before leaving the studio.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== 9. TESTIMONIALS ============================== -->
+<section class="sma-testimonial" data-testimonial>
+  <div class="sma-testimonial__container">
+    <div class="sma-testimonial__row-1">
+      <div>
+        <span class="sma-label-text">From the people who keep it on</span>
+        <h2 class="sma-primary-heading">By women who wear it every single day.</h2>
+        <p class="sma-body-text">Real women. Real wear. What they said when we asked.</p>
+      </div>
+      <nav class="sma-testimonial__nav" aria-label="Testimonial navigation">
+        <button class="sma-testimonial__nav-btn sma-testimonial__nav-btn--prev" type="button" aria-label="Previous testimonial" data-prev>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </button>
+        <button class="sma-testimonial__nav-btn" type="button" aria-label="Next testimonial" data-next>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </button>
+      </nav>
+    </div>
+    <div class="sma-testimonial__row-2">
+      <div class="sma-testimonial__image-wrapper">
+        <img class="sma-testimonial__image" src="https://ornmnt-jewelry.myshopify.com/cdn/shop/files/5ec577bdd8419d6fb4afde4bbd1c7e3ddc0c79a6.jpg?v=1779188641&width=800" alt="" loading="lazy">
+      </div>
+      <div class="sma-testimonial__carousel">
+        <div class="sma-testimonial__track">
+          <article class="sma-testimonial__slide is-active" data-image="https://ornmnt-jewelry.myshopify.com/cdn/shop/files/5ec577bdd8419d6fb4afde4bbd1c7e3ddc0c79a6.jpg?v=1779188641&width=800">
+            <h3 class="sma-primary-heading">I forgot I was wearing it.</h3>
+            <p class="sma-body-text">I put the Thread Necklace on the morning it arrived and genuinely forgot about it until my friend asked where I got it from. That is exactly what I wanted from it.</p>
+            <div class="sma-testimonial__slide-footer"><span class="sma-label-text">Aditi Mehra</span><span class="sma-chotta-text">Mumbai</span></div>
+          </article>
+          <article class="sma-testimonial__slide" data-image="https://ornmnt-jewelry.myshopify.com/cdn/shop/files/04b684cf8d8e7b8413d422dcfa9358ec83fc7b84.png?v=1779188643&width=800">
+            <h3 class="sma-primary-heading">Life-changing experience!</h3>
+            <p class="sma-body-text">I have worn the Form Ring every single day for four months. To work, to the gym, to sleep. It has not lost its finish and it has not lost its meaning. Worth every rupee.</p>
+            <div class="sma-testimonial__slide-footer"><span class="sma-label-text">Zara T.</span><span class="sma-chotta-text">Hyderabad</span></div>
+          </article>
+          <article class="sma-testimonial__slide" data-image="https://ornmnt-jewelry.myshopify.com/cdn/shop/files/00dd711a9b93b4e357c22723415b8ebf6129d325.jpg?v=1779188641&width=800">
+            <h3 class="sma-primary-heading">It made the gift feel considered.</h3>
+            <p class="sma-body-text">I bought the Pool Pendant for my best friend's birthday. The packaging alone made her emotional. She texted me that night saying she had not taken it off. That is the only review I need to give.</p>
+            <div class="sma-testimonial__slide-footer"><span class="sma-label-text">Aanya Patil</span><span class="sma-chotta-text">Mumbai</span></div>
+          </article>
+          <article class="sma-testimonial__slide" data-image="https://ornmnt-jewelry.myshopify.com/cdn/shop/files/e4a4fc47e2306db23a11a41d6e831caf01b3d5c5.jpg?v=1779188641&width=800">
+            <h3 class="sma-primary-heading">Quiet and completely mine.</h3>
+            <p class="sma-body-text">I am not someone who wears a lot of jewellery. The Gather Earrings are the first pair I have worn consistently in years. They feel like they were made for someone who thinks exactly the way I do.</p>
+            <div class="sma-testimonial__slide-footer"><span class="sma-label-text">Priya Nair</span><span class="sma-chotta-text">Bangalore</span></div>
+          </article>
+        </div>
+        <div class="sma-testimonial__dots" role="tablist"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== 10. PRODUCT REEL ============================== -->
+<section class="sma-reel" data-reel>
+  <div class="sma-reel__header">
+    <p class="sma-label-text">On the feed</p>
+    <h2 class="sma-primary-heading">ORNMNT in the wild.</h2>
+    <p class="sma-body-text">Unscripted. Unedited. Unmistakably ORNMNT.</p>
+  </div>
+  <div class="sma-reel__slider" data-reel-slider>
+    <a href="#" class="sma-reel__slide">
+      <video muted loop playsinline autoplay preload="metadata" src="https://ornmnt-jewelry.myshopify.com/cdn/shop/videos/c/vp/66e936d5fbbb4f70a7125eed7340722a/66e936d5fbbb4f70a7125eed7340722a.SD-480p-1.5Mbps-84373679.mp4?v=0"></video>
+      <div class="sma-reel__product">
+        <img src="https://ornmnt-jewelry.myshopify.com/cdn/shop/files/freepik_a-delicate-thin-gold-chai_2851719407_1_1_200x200.png?v=1779103886" alt="" loading="lazy">
+        <div><span class="sma-reel__product-title">Thread Necklace</span><span class="sma-reel__product-price">₹2,800</span></div>
+      </div>
+    </a>
+    <a href="#" class="sma-reel__slide">
+      <video muted loop playsinline autoplay preload="metadata" src="https://ornmnt-jewelry.myshopify.com/cdn/shop/videos/c/vp/2fc4649683b242dc9b1ad2ee416bab19/2fc4649683b242dc9b1ad2ee416bab19.SD-480p-1.5Mbps-84373683.mp4?v=0"></video>
+      <div class="sma-reel__product">
+        <img src="https://ornmnt-jewelry.myshopify.com/cdn/shop/files/freepik_a-wide-minimal-gold-band-_2851721232_1_1_200x200.png?v=1779103886" alt="" loading="lazy">
+        <div><span class="sma-reel__product-title">Texture Band Ring</span><span class="sma-reel__product-price">₹2,800</span></div>
+      </div>
+    </a>
+    <a href="#" class="sma-reel__slide">
+      <video muted loop playsinline autoplay preload="metadata" src="https://ornmnt-jewelry.myshopify.com/cdn/shop/videos/c/vp/a053bf8e25cc4f109e3d11a6ffb5b337/a053bf8e25cc4f109e3d11a6ffb5b337.SD-480p-1.5Mbps-84373681.mp4?v=0"></video>
+      <div class="sma-reel__product">
+        <img src="https://ornmnt-jewelry.myshopify.com/cdn/shop/files/freepik_a-flat-minimal-gold-cuff-_2851723434_1_1_200x200.png?v=1779103886" alt="" loading="lazy">
+        <div><span class="sma-reel__product-title">Slim Cuff</span><span class="sma-reel__product-price">₹2,800</span></div>
+      </div>
+    </a>
+    <a href="#" class="sma-reel__slide">
+      <video muted loop playsinline autoplay preload="metadata" src="https://ornmnt-jewelry.myshopify.com/cdn/shop/videos/c/vp/ec4c5a065e1e4cecab34f0b60d9d41b8/ec4c5a065e1e4cecab34f0b60d9d41b8.SD-480p-1.5Mbps-84373680.mp4?v=0"></video>
+      <div class="sma-reel__product">
+        <img src="https://ornmnt-jewelry.myshopify.com/cdn/shop/files/freepik_a-single-small-sculptural_2851722742_1_1_200x200.png?v=1779103886" alt="" loading="lazy">
+        <div><span class="sma-reel__product-title">Gather Earrings</span><span class="sma-reel__product-price">₹2,800</span></div>
+      </div>
+    </a>
+  </div>
+  <div class="sma-reel__dots" data-reel-dots></div>
+  <div class="sma-reel__cta"><a href="#" class="sma-button-primary">Follow us on Instagram</a></div>
+</section>
+
+</main>
+
+<!-- ============================== 11. FOOTER ============================== -->
+<footer class="sma-footer" id="contact">
+  <div class="sma-footer__inner">
+    <div class="sma-footer__logo-row">
+      <span class="sma-footer__divider sma-footer__divider--left"></span>
+      <div class="sma-footer__logo">
+        <img src="https://ornmnt-jewelry.myshopify.com/cdn/shop/files/Frame_15_2_1.png?v=1779198259&width=260" alt="ORNMNT Jewelry" width="130" loading="lazy">
+      </div>
+      <span class="sma-footer__divider"></span>
+    </div>
+
+    <div class="sma-footer__main-row">
+      <div class="sma-footer__left-col">
+        <div class="sma-footer__newsletter">
+          <h2 class="sma-primary-heading">Be the first to know.</h2>
+          <p class="sma-body-text sma-footer__subheading">New arrivals. Behind the pieces. Straight to you.</p>
+          <form class="sma-footer__form" data-newsletter>
+            <p class="sma-body-text sma-footer__form-message" hidden data-newsletter-msg>Thanks for subscribing.</p>
+            <input type="email" class="sma-body-text sma-footer__email-input" placeholder="Email Address" aria-label="Email Address" autocomplete="email" required>
+            <button type="submit" class="sma-button-second">Join our family</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="sma-footer__right-col">
+        <div class="sma-footer__menu-wrapper">
+          <div class="sma-footer__menu-col">
+            <span class="sma-label-text sma-footer__menu-heading">Shop</span>
+            <ul class="sma-footer__menu-list">
+              <li><a href="#" class="sma-body-text sma-footer__menu-link">Necklaces</a></li>
+              <li><a href="#" class="sma-body-text sma-footer__menu-link">Earrings</a></li>
+              <li><a href="#" class="sma-body-text sma-footer__menu-link">Rings</a></li>
+              <li><a href="#" class="sma-body-text sma-footer__menu-link">Bracelets</a></li>
+              <li><a href="#" class="sma-body-text sma-footer__menu-link">For Her</a></li>
+              <li><a href="#" class="sma-body-text sma-footer__menu-link">For Him</a></li>
+              <li><a href="#" class="sma-body-text sma-footer__menu-link">Gifting</a></li>
+            </ul>
+          </div>
+          <div class="sma-footer__menu-col">
+            <span class="sma-label-text sma-footer__menu-heading">About</span>
+            <ul class="sma-footer__menu-list">
+              <li><a href="#" class="sma-body-text sma-footer__menu-link">Our Story</a></li>
+              <li><a href="#" class="sma-body-text sma-footer__menu-link">Care Guide</a></li>
+              <li><a href="#" class="sma-body-text sma-footer__menu-link">Sustainability</a></li>
+              <li><a href="#" class="sma-body-text sma-footer__menu-link">FAQs</a></li>
+              <li><a href="#" class="sma-body-text sma-footer__menu-link">Get in touch</a></li>
+              <li><a href="#" class="sma-body-text sma-footer__menu-link">Privacy Policy</a></li>
+              <li><a href="#" class="sma-body-text sma-footer__menu-link">Terms &amp; Conditions</a></li>
+            </ul>
+          </div>
+          <div class="sma-footer__menu-col sma-footer__menu-col--last">
+            <div>
+              <span class="sma-label-text sma-footer__menu-heading">Connect</span>
+              <ul class="sma-footer__menu-list">
+                <li><a href="#" class="sma-body-text sma-footer__menu-link">Instagram</a></li>
+                <li><a href="#" class="sma-body-text sma-footer__menu-link">Facebook</a></li>
+                <li><a href="#" class="sma-body-text sma-footer__menu-link">support@ornmnt.com</a></li>
+              </ul>
+            </div>
+            <p class="sma-body-text sma-footer__copyright">&copy; 2026&nbsp;ORNMNT. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="sma-footer__hr">
+
+    <div class="sma-footer__icons-row">
+      <div class="sma-footer__icon-item"><img src="https://ornmnt-jewelry.myshopify.com/cdn/shop/files/Frame.svg?v=1779198560&width=40" alt="" width="20" height="20"><span class="sma-label-text">Ethically sourced</span></div>
+      <div class="sma-footer__icon-item"><img src="https://ornmnt-jewelry.myshopify.com/cdn/shop/files/Frame_1.svg?v=1779198561&width=40" alt="" width="20" height="20"><span class="sma-label-text">Surgical steel</span></div>
+      <div class="sma-footer__icon-item"><img src="https://ornmnt-jewelry.myshopify.com/cdn/shop/files/Frame_2.svg?v=1779198560&width=40" alt="" width="20" height="20"><span class="sma-label-text">Free shipping</span></div>
+      <div class="sma-footer__icon-item"><img src="https://ornmnt-jewelry.myshopify.com/cdn/shop/files/Frame_3.svg?v=1779198561&width=40" alt="" width="20" height="20"><span class="sma-label-text">Easy 15 day returns</span></div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
